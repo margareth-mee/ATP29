@@ -12,4 +12,9 @@ public class BaseId {
         }
         return false;
     }
+
+    @Override
+    public String toString() {
+        return "ID: " + this.id;
+    }
 }
