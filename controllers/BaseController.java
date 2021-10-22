@@ -17,7 +17,7 @@ public class BaseController<B> {
        return this.lista;
    }
 
-   public void updade(B obj){
+   public void update(B obj){
      if(existe(obj)){
          delete(obj);
          create(obj);
@@ -30,8 +30,5 @@ public class BaseController<B> {
 
    public boolean existe(B obj){
        return this.lista.contains(obj);
-
-
-
-    
+   }
 }
